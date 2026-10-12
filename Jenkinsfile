@@ -2,7 +2,7 @@ pipeline {
   agent any
   environment {
     IMAGE_NAME = 'firyaljihanhaura/simple-app'
-    REGISTRY_CREDENTIALS = 'docker-credentials'
+    REGISTRY_CREDENTIALS = 'dockerhub-credentials'
   }
   stages {
     stage('Checkout') { 
